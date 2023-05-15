@@ -1,0 +1,10 @@
+class Solution {
+    public boolean doesValidArrayExist(int[] d) {
+        int ans=0;
+        for(int a:d){
+            if(a==1)
+                ans++;
+        }
+        return (ans%2==0);
+    }
+}
